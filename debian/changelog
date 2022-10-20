@@ -1,0 +1,142 @@
+zaz (1.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.0.1
+    - Exclude zip files.
+  * Document CC-BY-SA licensed music files.
+  * Remove get-orig-source target.
+  * Remove README.Debian because the music files are free now.
+  * Remove pkg-config files. We don't need them anymore.
+  * Build with autoreconf.
+  * Drop mismatched_delete.patch, libvorbis.patch, runstatedir.patch,
+    and no_music patches. Fixed upstream.
+
+ -- Markus Koschany <apo@debian.org>  Thu, 21 Oct 2021 12:02:26 +0200
+
+zaz (1.0.0~dfsg1-6) unstable; urgency=medium
+
+  * Team upload.
+  * Switch to debhelper-compat = 13.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Use canonical VCS URI. Move the packaging to Git.
+  * Build --without autoreconf because of outdated gettext macros.
+  * Support runstatedir option.
+
+ -- Markus Koschany <apo@debian.org>  Mon, 01 Jun 2020 12:48:51 +0200
+
+zaz (1.0.0~dfsg1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Remove dh_movefiles and zaz-data.files. Use zaz.install and
+    zaz-data.install files instead and ensure that all files are installed
+    correctly. (Closes: #819471)
+  * Remove /usr/share/games/doc directory.
+  * Use dh_install override instead of dh_auto_install.
+  * debian/source/options: Do not use bzip compression and use default xz
+    compression instead.
+
+ -- Markus Koschany <apo@debian.org>  Tue, 29 Mar 2016 18:20:04 +0200
+
+zaz (1.0.0~dfsg1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Declare compliance with Debian Policy 3.9.7.
+  * Vcs-Browser: Use https.
+  * Use homepage address at sourceforge.net.
+    Thanks to Vasudev Kamath for the report. (Closes: #696481)
+  * Switch dependencies from ttf-freefont to fonts-freefont-ttf.
+    Thanks to Christian Perrier for the report. (Closes: #738262)
+  * Fix FTBFS with clang compiler.
+    Thanks to Alexander for the report and patch. (Closes: #753340)
+  * d/copyright: Fix copyright format 1.0 syntax errors.
+  * Switch to dh sequencer and simplify debian/rules.
+  * Install man page with zaz.manpages file.
+  * d/rules: Remove empty directories.
+  * Drop -dbg package because the automatic -dbgsym package is available now.
+  * Add desktop-file.patch. Add keywords, remove unused MimeType key and add a
+    comment in German.
+
+ -- Markus Koschany <apo@debian.org>  Tue, 29 Mar 2016 01:31:17 +0200
+
+zaz (1.0.0~dfsg1-3) unstable; urgency=medium
+
+  [ Peter Pentchev ]
+  * Team upload.
+  * Link with libvorbis, not just libvorbisenc.  Closes: #768718
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 24 Nov 2014 19:30:11 -0500
+
+zaz (1.0.0~dfsg1-2) unstable; urgency=low
+
+  [ Miriam Ruiz ]
+  * Fixed man page
+  * Added patch by Steve Cotton to fix jumpu keyboard. Closes: #649021
+  * Changed my email to miriam@debian.org
+  * Upgraded Standards-Version from 3.9.2 to 3.9.4
+  * Upgraded compat level to 9
+  * Fortified build
+
+  [ Paul Wise ]
+  * Add patches by Steve Cotton to fix crashes (Closes: #649017; LP: #656468)
+  * dbg/data packages don't have ELF files and therefore don't need shlibs
+  * Wrap and sort various files for more readable diffs
+  * Drop dh-buildinfo since it isn't useful these days
+  * Drop quilt build-dep, not needed with dpkg-source v3
+  * Link to the versioned filenames for the GPL
+  * Document gettext.h copyright and license
+  * Clean up patches and add DEP-3 headers
+  * Use slightly shorter homepage
+  * Add a watch file
+
+  [ Evgeni Golov ]
+  * Correct Vcs-* URLs to point to anonscm.debian.org
+
+ -- Miriam Ruiz <miriam@debian.org>  Fri, 13 Sep 2013 21:08:20 +0200
+
+zaz (1.0.0~dfsg1-1) unstable; urgency=low
+
+  * New Upstream Release
+  * Upgraded Standards-Version from 3.8.3 to 3.9.2
+  * New homepage: http://phuzzboxmedia.com/index.php/games/open-sourced-zaz
+  * Refreshed patches
+  * Moved package to DebSrc 3
+
+ -- Miriam Ruiz <little_miry@yahoo.es>  Wed, 16 Nov 2011 02:28:10 +0100
+
+zaz (0.3.1+dfsg1-1) UNRELEASED; urgency=low
+
+  * New Upstream Release
+    - Level sets
+    - Profiles
+    - Improved high score system
+    - Survival mode
+    - Much smaller download
+  * Removed Debian-specific i18n stuff
+
+ -- Miriam Ruiz <little_miry@yahoo.es>  Sat, 30 Jan 2010 13:56:51 +0100
+
+zaz (0.3.0+dfsg1-1) UNRELEASED; urgency=low
+
+  * New Upstream Release
+    - Tens of bugs fixed
+    - Music is now on CC BY-SA License
+    - All levels have been revised when it comes to speed, time and amounts
+      of balls to maximise player enjoyment/annoyance
+    - 2 additional levels which use the new overlays feature
+
+ -- Miriam Ruiz <little_miry@yahoo.es>  Sun, 11 Oct 2009 04:33:45 +0200
+
+zaz (0.2.9+dfsg1-1) unstable; urgency=low
+
+  * New Upstream Release
+  * Added local pkg-config files for GL and GLU (libgl1-mesa-dev < 7.5 does
+    not ship a pkg-config file for them)
+
+ -- Miriam Ruiz <little_miry@yahoo.es>  Mon, 31 Aug 2009 20:08:58 +0200
+
+zaz (0.2.6+dfsg1-1) unstable; urgency=low
+
+  * Initial release. Closes: #543146
+  * Removed music (data/mus?.off) because CC-by-sa-nc is not free.
+
+ -- Miriam Ruiz <little_miry@yahoo.es>  Sat, 22 Aug 2009 21:06:09 +0200

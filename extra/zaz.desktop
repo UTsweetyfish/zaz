@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zaz
+Comment=Zaz ain't Z***
+Comment[ru]=Zaz не клон Z***
+Comment[tr]=Top Yok Etme Oyunu
+TryExec=zaz
+Exec=zaz
+Categories=Game;LogicGame;
+Icon=zaz
+MimeType=

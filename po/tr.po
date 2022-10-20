@@ -1,0 +1,450 @@
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Anıl Özbek <ozbekanil@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: zaz 0.3.3\n"
+"Report-Msgid-Bugs-To: remigiusz.dybka@gmail.com\n"
+"POT-Creation-Date: 2021-01-31 01:43+0000\n"
+"PO-Revision-Date: 2010-09-01 01:33+0300\n"
+"Last-Translator: Anıl Özbek\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/game.cpp:806
+msgid "Extra Life !"
+msgstr "Ekstra Can!"
+
+#: src/game.cpp:882
+#, c-format
+msgid "Time Bonus ! (%d sec * %d = %d)"
+msgstr "Zaman Bonusu! (%d sec * %d = %d)"
+
+#: src/mainmenu.cpp:36
+msgid "Start game"
+msgstr "Oyunu başlat"
+
+#: src/mainmenu.cpp:37
+msgid "Options"
+msgstr "Seçenekler"
+
+#: src/mainmenu.cpp:38
+msgid "Credits"
+msgstr "Emeği Geçenler"
+
+#: src/mainmenu.cpp:39
+msgid "Exit"
+msgstr "Çıkış"
+
+#: src/mainmenu.cpp:40 src/mainmenu.cpp:353
+msgid "Profile:"
+msgstr "Profil"
+
+#: src/mainmenu.cpp:48 src/mainmenu.cpp:56
+msgid "Back"
+msgstr "Geri"
+
+#: src/mainmenu.cpp:53 src/hiscores.cpp:348
+msgid "Sequential"
+msgstr "Sıralı"
+
+#: src/mainmenu.cpp:54 src/hiscores.cpp:354
+msgid "Survival"
+msgstr "Hayatta Kalma"
+
+#: src/mainmenu.cpp:59
+msgid "Game type:"
+msgstr "Oyun tipi:"
+
+#: src/mainmenu.cpp:75
+msgid "New profile"
+msgstr "Yeni profil"
+
+#: src/mainmenu.cpp:76
+msgid "Delete"
+msgstr "Sil"
+
+#: src/mainmenu.cpp:112
+msgid "code, gfx, snd & design:"
+msgstr "kod, grafikler, ses ve tasarım"
+
+#: src/mainmenu.cpp:113
+msgid "Remigiusz Dybka"
+msgstr "Remigiusz Dybka"
+
+#: src/mainmenu.cpp:114
+msgid "[remigiusz.dybka@gmail.com] Released under GPLv3 License"
+msgstr "[remigiusz.dybka@gmail.com] GPLv3 lisansı ile yayımlanmıştır"
+
+#: src/mainmenu.cpp:116
+msgid "music:"
+msgstr "müzik:"
+
+#: src/mainmenu.cpp:117
+msgid "paniq - Leonard Ritter"
+msgstr "paniq - Leonard Ritter"
+
+#: src/mainmenu.cpp:118
+msgid "[http://www.paniq.org] Released under CC BY-SA License"
+msgstr "[http://www.paniq.org] CC BY-SA lisansı ile yayımlanmıştır"
+
+#: src/mainmenu.cpp:120
+msgid "quality assurance:"
+msgstr "kalite kontrol:"
+
+#: src/mainmenu.cpp:121
+msgid "Kinga Dybka"
+msgstr "Kinga Dybka"
+
+#: src/mainmenu.cpp:122
+msgid "Michael Sterrett"
+msgstr "Michael Sterrett"
+
+#: src/mainmenu.cpp:125
+msgid "translations:"
+msgstr "çeviriler:"
+
+#: src/mainmenu.cpp:127
+msgid "German:"
+msgstr "Almanca:"
+
+#: src/mainmenu.cpp:128
+msgid "Frederik Schwarzer"
+msgstr "Frederik Schwarzer"
+
+#: src/mainmenu.cpp:130
+msgid "Spanish:"
+msgstr "İspanyolca:"
+
+#: src/mainmenu.cpp:131
+msgid "Dámaso Domínguez (AmiSpaTra)"
+msgstr "Dámaso Domínguez (AmiSpaTra)"
+
+#: src/mainmenu.cpp:133
+msgid "French:"
+msgstr "Fransızca:"
+
+#: src/mainmenu.cpp:134 src/mainmenu.cpp:150
+msgid "Nouvel Hugues"
+msgstr "Nouvel Hugues"
+
+#: src/mainmenu.cpp:136
+msgid "Hungarian:"
+msgstr "Macarca:"
+
+#: src/mainmenu.cpp:137
+msgid "Gabor Kmetyko"
+msgstr "Gabor Kmetyko"
+
+#: src/mainmenu.cpp:139
+msgid "Italian:"
+msgstr "İtalyanca:"
+
+#: src/mainmenu.cpp:140
+msgid "Andrea Musuruane"
+msgstr "Andrea Musuruane"
+
+#: src/mainmenu.cpp:142
+msgid "Russian:"
+msgstr "Rusça:"
+
+#: src/mainmenu.cpp:143
+msgid "Николай Рощупкин"
+msgstr "Николай Рощупкин"
+
+#: src/mainmenu.cpp:145
+msgid "Turkish:"
+msgstr "Türkçe:"
+
+#: src/mainmenu.cpp:146
+msgid "Anıl Özbek"
+msgstr "Anıl Özbek"
+
+#: src/mainmenu.cpp:149
+msgid "additional coding:"
+msgstr "Ek kodlamalar:"
+
+#: src/mainmenu.cpp:152
+msgid "additional testing:"
+msgstr "Ek testler:"
+
+#: src/mainmenu.cpp:153
+msgid "Irena Klon"
+msgstr "Irena Klon"
+
+#: src/mainmenu.cpp:154
+msgid "Kamil Krzyspiak"
+msgstr "Kamil Krzyspiak"
+
+#: src/mainmenu.cpp:155
+msgid "Mateusz Jakubowski"
+msgstr "Mateusz Jakubowski"
+
+#: src/mainmenu.cpp:208
+msgid "Language"
+msgstr "Dil"
+
+#: src/mainmenu.cpp:211
+msgid "Resolution"
+msgstr "Çözünürlük"
+
+#: src/mainmenu.cpp:212
+msgid "Fullscreen"
+msgstr "Tam Ekran"
+
+#: src/mainmenu.cpp:213
+msgid "Show FPS"
+msgstr "SBK'yı Göster"
+
+#: src/mainmenu.cpp:214
+msgid "Colour hints"
+msgstr "Renk ipuçları"
+
+#: src/mainmenu.cpp:215
+msgid "Disable speed-up"
+msgstr "Hızlanmayı kapat"
+
+#: src/mainmenu.cpp:216
+msgid "Mouse sensivity"
+msgstr "Fare hassasiyeti"
+
+#: src/mainmenu.cpp:217
+msgid "Keyb. sensivity"
+msgstr "Klavye hassasiyeti"
+
+#: src/mainmenu.cpp:218
+msgid "SFX volume"
+msgstr "Efektlerin ses seviyesi"
+
+#: src/mainmenu.cpp:219
+msgid "Music volume"
+msgstr "Müzik"
+
+#: src/mainmenu.cpp:220
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/mainmenu.cpp:221
+msgid "Apply"
+msgstr "Uygulama"
+
+#: src/mainmenu.cpp:643
+msgid "Hall of Fame"
+msgstr "Onur Listesi"
+
+#: src/mainmenu.cpp:761
+msgid "choose a level set"
+msgstr "bir bölüm grubu seçin"
+
+#: src/mainmenu.cpp:983
+msgid "locked"
+msgstr "kilitli"
+
+#: src/gameloop.cpp:39 src/gameloop.cpp:45 src/gameloop.cpp:59
+msgid "End game"
+msgstr "Oyunu bitir"
+
+#: src/gameloop.cpp:40
+msgid "Continue"
+msgstr "Devam"
+
+#: src/gameloop.cpp:44
+msgid "Next level"
+msgstr "Sonraki bölüm"
+
+#: src/gameloop.cpp:46 src/gameloop.cpp:53 src/gameloop.cpp:60
+msgid "View replay"
+msgstr "Tekrar oynatımı görüntüle"
+
+#: src/gameloop.cpp:47 src/gameloop.cpp:54 src/gameloop.cpp:61
+msgid "Export video"
+msgstr "Videoyu aktar"
+
+#: src/gameloop.cpp:51
+msgid "Back to main menu"
+msgstr "Ana menüye dön"
+
+#: src/gameloop.cpp:52
+msgid "Restart game"
+msgstr "Oyunu yeniden başlat"
+
+#: src/gameloop.cpp:58
+msgid "Retry level"
+msgstr "Bölümü tekrar dene"
+
+#: src/gameloop.cpp:65
+msgid "Yes"
+msgstr "Evet"
+
+#: src/gameloop.cpp:66
+msgid "No"
+msgstr "Hayır"
+
+#: src/gameloop.cpp:576
+#, c-format
+msgid "Lives left: %d"
+msgstr "Kalan canlar: %d"
+
+#: src/gameloop.cpp:579 src/gameloop.cpp:612
+#, c-format
+msgid "Current score: %06d"
+msgstr "Şu anki puan: %06d"
+
+#: src/gameloop.cpp:587
+msgid "Sure you want to end game?"
+msgstr "Oyunu bitirmek istediğinizden emin misiniz?"
+
+#: src/gameloop.cpp:596
+msgid "Game paused"
+msgstr "Oyun duraklatıldı"
+
+#: src/gameloop.cpp:609
+msgid "Level cleared"
+msgstr "Bölüm tamamlandı"
+
+#: src/gameloop.cpp:623
+msgid "Game Over"
+msgstr "Oyun Bitti"
+
+#: src/gameloop.cpp:629
+#, c-format
+msgid "Score: %06d"
+msgstr "Puan: %06d"
+
+#: src/gameloop.cpp:637
+msgid "Congratulations !!! You just pwned"
+msgstr "Tebrikler!!! Kazandınız"
+
+#: src/gameloop.cpp:642
+msgid "Extra points for remaining lives : "
+msgstr "Kalan canlar için ekstra puanlar: "
+
+#: src/gameloop.cpp:671
+msgid "Shortest time for this level!"
+msgstr "Bu bölüm için en iyi zaman!"
+
+#: src/gameloop.cpp:677
+msgid "Shortest time for this level and a hi score!"
+msgstr "Bu bölüm için en iyi zaman ve yeni bir yüksek puan!"
+
+#: src/gameloop.cpp:683
+msgid "You have a hi score!"
+msgstr "Bir yüksek puan yaptınız!"
+
+#: src/scene.cpp:258
+msgid "Exporting video [press ESC to cancel]"
+msgstr "Video aktarılıyor [iptal etmek için ESC'ye basın]"
+
+#: src/hiscores.cpp:351
+msgid "Best times"
+msgstr "En iyi süreler"
+
+#: data/levels.list:2
+msgid "Professional"
+msgstr "Profesyonel"
+
+#: data/levels.list:3
+msgid "Easy"
+msgstr "Kolay"
+
+#: data/levels.list:5
+msgid "Zatlantiz"
+msgstr "Zatlantiz"
+
+#: data/levels.list:6
+msgid "Zuza"
+msgstr "Zuza"
+
+#: data/levels.list:7
+msgid "Bendlantiz"
+msgstr "Bendlantiz"
+
+#: data/levels.list:8
+msgid "You have been warned"
+msgstr "You have been warned"
+
+#: data/levels.list:9
+msgid "Double D"
+msgstr "Double D"
+
+#: data/levels.list:10
+msgid "SuperZaz"
+msgstr "SuperZaz"
+
+#: data/levels.list:11
+msgid "Bacteria"
+msgstr "Bacteria"
+
+#: data/levels.list:12
+msgid "Midnight Queen"
+msgstr "Midnight Queen"
+
+#: data/levels.list:13
+msgid "Joker"
+msgstr "Joker"
+
+#: data/levels.list:14
+msgid "The Three Dragonz"
+msgstr "The Three Dragonz"
+
+#: data/levels.list:15
+msgid "The Eye"
+msgstr "The Eye"
+
+#: data/levels.list:16
+msgid "Messy Bedroom"
+msgstr "Messy Bedroom"
+
+#: data/levels.list:17
+msgid "TwinTlantis"
+msgstr "TwinTlantis"
+
+#: data/levels.list:18
+msgid "The Tunnel"
+msgstr "The Tunnel"
+
+#: data/levels.list:19
+msgid "Snail"
+msgstr "Snail"
+
+#: data/levels.list:20
+msgid "Spiralis"
+msgstr "Spiralis"
+
+#: data/levels.list:21
+msgid "Butterfly"
+msgstr "Butterfly"
+
+#: data/levels.list:22
+msgid "Sonar"
+msgstr "Sonar"
+
+#: data/levels.list:23
+msgid "Specs"
+msgstr "Specs"
+
+#: data/levels.list:24
+msgid "Triad"
+msgstr "Triad"
+
+#: data/levels.list:25
+msgid "Over N' Under"
+msgstr "Over N' Under"
+
+#: data/levels.list:26
+msgid "Infinity"
+msgstr "Infinity"
+
+#: data/levels.list:27
+msgid "Nightmare"
+msgstr "Nightmare"
+
+#: data/levels.list:28
+msgid "Twenty Three"
+msgstr "Twenty Three"

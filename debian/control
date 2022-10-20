@@ -1,0 +1,50 @@
+Source: zaz
+Section: games
+Priority: optional
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders:
+ Miriam Ruiz <miriam@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ fonts-freefont-ttf,
+ gettext,
+ libftgl-dev,
+ libgl1-mesa-dev,
+ libglu1-mesa-dev,
+ libsdl-image1.2-dev,
+ libsdl1.2-dev,
+ libtheora-dev,
+ libvorbis-dev,
+ libxext-dev,
+ pkg-config
+Standards-Version: 4.6.0
+Homepage: http://zaz.sourceforge.net/
+Vcs-Git: https://salsa.debian.org/games-team/zaz.git
+Vcs-Browser: https://salsa.debian.org/games-team/zaz
+
+Package: zaz
+Architecture: any
+Depends:
+ fonts-freefont-ttf,
+ zaz-data (>= ${source:Version}),
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: arcade action puzzle game
+ Zaz is an arcade action puzzle game where the goal is to get rid of
+ all incoming balls by rearranging their order and making triplets.
+ It currently includes 12 different levels. The game's name is recursive
+ and stands for "Zaz ain't Z".
+ .
+ A 3D accelerator is needed for decent gameplay.
+
+Package: zaz-data
+Architecture: all
+Depends:
+ ${misc:Depends}
+Recommends:
+ zaz (>= ${source:Version})
+Description: arcade action puzzle game - game data
+ Zaz is an arcade action puzzle game where the goal is to get rid of
+ all incoming balls by rearranging their order.
+ .
+ This package contains the game data.

@@ -1,0 +1,202 @@
+Zaz 1.0.1
+ * splash off by default
+ * fixed build scripts (ripped off gentoo patch)
+ * applied patch from Nathan Mills (thank you)
+
+Zaz 1.0.0
+ * added splash screen  ...and a --disable-splash configure option :)
+ * music volume option is honoured in main menu
+ * added disable speed-up option
+ * fixed saving of profile after changes in options
+ * fixed mouse glitches
+ * 23 levels in total :))))
+ * fixed detection of default language in win32
+
+Zaz 0.8.0
+ * fixed texture loading for amigaOs4
+ * fixed fps in main menu after changing it in options
+ * added language option in options menu
+ * added i18n in win32
+ * fixed options menu size and position
+ * changed FPS font to textured font
+ * changed all texts in editor to textured font
+ * added credits scroller
+ * added own (uber-cool) mouse pointer
+ * 20 levels
+ * fixed video export (always VBR max quality)
+
+Zaz 0.7.0
+ * added LCTRL held while starting will reset screen res to 640x480 windowed
+ * added italian translation
+ * [win32] added user data dir
+ * fixed level editor (broken since 0.3.0)
+ * changed cyan ball into brown
+ * added colour hints for colour blind players
+ * fixed directory listing for platforms that don't fill in dirent.d_type
+ * added fallback to 640x480 windowed if last resolution can't be set
+ * 18 level in total
+ * removed The Eye
+ * fixed freeing of textures between levels
+ * fixed some endianness issues 
+ * fixed drawing of looped player path in editor
+ * added french translation
+ * added turkish translation
+
+Zaz 0.3.3
+ * fixed unicode filename bugs in win32
+
+Zaz 0.3.2
+ * fixed memory leaks in mixer
+ * fixed - ESC reverts changes in options
+ * fixed last button activation by enter in menu
+ * added extra digit in score (now 6)
+ * added menu shadows
+ * switched win32 build system to (cblocks/mingw)
+ * added rgb2yuv lookup table (speeds up video export a bit)
+ * added apply/cancel in options menu instead of "back to main menu"
+ * fixed copyright info for game art
+
+Zaz 0.3.1
+ * compressed all data
+ * fixed localedir and docdir in configure scripts
+ * changed default icondir to DATAROOTDIR/pixmaps
+ * dropped use of iconv in lineeditor
+ * fixed paused/slowed down paths when loosing level
+ * fixed level saving bug
+ * speed-up cancels reversing
+ * 64x64 textures for balls
+ * added player profiles
+ * changed desktop shortcut category to Game (from Game;LogicGame)
+ * fixed reinitialisation
+ * added user levels (.zaz/data) - files here will override installed files
+ * added variable ball sizes in lvl
+ * added level sets
+ * added mirroring
+ * fixed default keyboard sensivity
+ * fixed unneeded scrolling in level/set browser
+ * added music selection from level sets (5th file, if present)
+ * added -d option to override data dir completely (will ignore user files too)
+ * added survival mode
+ * added new color sfx
+ * added failed level sfx
+ * added easy level set
+ * added color filtering of balls instead different images
+ * added 8 new colors
+ * fixed hiscore system
+
+Zaz 0.3.0 2009-10-06
+ * added unicode support in line-editor (for hiscores name)
+ * added russian translation
+ * dropped legacy theora API calls from ogvexport
+ * added check for ftgl 2.1.3
+ * added german translation
+ * added boundary checks in level loading
+ * added end game confirmation
+ * added keyboard support in menus
+ * added keyboard support in level browser
+ * added configuration options --with-applicationdir, --with-icondir
+ * all textures are now _really_ pow2 :)
+ * added in-game keyboard support
+ * removed check for GL.pc in configure.ac
+ * added check for GL/gl.h and GL-lib in configure.ac
+ * added drawing of paths when started in test mode from editor
+ * accuracy shot always on then started from editor
+ * fixed sudden jumps of feed rate
+ * added different feed rates for different paths in lvl
+ * added kids mode (always accuracy shot, no bonus restrictions) in lvl
+ * added bonus frequency in lvl
+ * fixed rendering of explosions and sprites
+ * added overlays for levels
+ * added speedup with second mouse button
+ * added current time / time to finish level in game display
+ * fixed accuracy shot interfering with explosions
+ * added different ball counts for different levels
+ * added overlay control in editor
+ * added messagebox for errors in win32
+ * fixed screenshot/background/video generation for "strange" resolutions (like 1366x738)
+ * fixed extra ball after penalties bug
+ * fixed taking screenshots for thumbnails from editor
+ 
+Zaz 0.2.9 2009-08-25
+ * added internationalization
+ * dropped use of font2 (the cool one) where _("strings") could be
+ * fixed game start without audio
+ * added polish translation
+ * added spanich translation
+
+Zaz 0.2.8 2009-08-24
+ * fixed video initialization for desktops running 16bit colors
+ * fixed mouse grabbing while exporting video - you can now
+do something else while exporting unless you're running fullscreen
+ * added lives (extra life every 10000 pts)
+ * added check for existence of install dir - if not found tries to use ./data
+ * added startup progress indicator
+ * added level browser
+ * added time in levels and time bonus if you're quicker
+ * added 4 new levels
+
+Zaz 0.2.6 2009-08-21
+ * added hiscore display in main menu
+ * added explosions
+ * added extra ball animation
+ * all textures are now pow2
+ * added screenmode enumeration
+ * added screenmode change while running
+ * fixed screenshots/video on win32
+  
+Zaz 0.2.2 2009-08-17
+ * made the project compile under win32
+ * added win32.zip in main dir which includes
+everything needed to compile under win32
+ * introduced several bugs in gameplay :(
+
+Zaz 0.2.0 2009-08-16
+ * added gameloop with pause/continue
+ * added replay and video export after a finished level
+ * added high scores
+ * 3 new levels (6 in total)
+ * added level name in the beginning of each level
+ * fixed alpha blending of score sprites
+ * fixed premature finishing of levels
+ * fixed that annoying blinking top line in video export
+  
+Zaz 0.1.2 2009-08-15
+ * fixed scoring system
+ * added combos
+ * added menu with options
+ * added 2 new levels (3 in total)
+ * fixed ball picking bug
+ * fixed "release a ball of different colour into explotion" bug
+ * fixed mouse sensivity
+ * added -e filename option which edits level files in current directory
+ * added -p filename option which starts game on given level
+ *		(will be gone in final version)
+
+Zaz 0.1.0 2009-08-09
+ * First playable version
+
+Zaz 0.0.5 2009-08-07
+ * added Player
+ * added test level editor
+
+Zaz 0.0.4 2009-08-03
+------------------
+ * added Bezier
+ * dropped SDL_ttf in favour of GLFT
+ * added unified mouse support
+ * added texture loading through SDL_image
+
+Zaz 0.0.3 2009-07-31
+------------------
+ * added OgvExport
+ * fixed streaming sample playing multiple times
+
+Zaz 0.0.2 2009-07-30
+------------------
+ * added StreamingOggSample
+ * fixed streaming sample support in AudioBuffer
+
+Zaz 0.0.1 2009-07-29
+------------------
+ * converted the project to GNU BuildTools
+ 

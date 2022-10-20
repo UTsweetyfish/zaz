@@ -1,0 +1,451 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: zaz 1.0\n"
+"Report-Msgid-Bugs-To: remigiusz.dybka@gmail.com\n"
+"POT-Creation-Date: 2021-01-31 01:43+0000\n"
+"PO-Revision-Date: 2010-09-02 15:56-0000\n"
+"Last-Translator: Nikolay Roschupkin <nik@puppyrus.org>\n"
+"Language-Team: RUSSIAN <RU@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: src/game.cpp:806
+msgid "Extra Life !"
+msgstr "Дополнительная жизнь!"
+
+#: src/game.cpp:882
+#, c-format
+msgid "Time Bonus ! (%d sec * %d = %d)"
+msgstr "Бонус времени! (%d sec * %d = %d)"
+
+#: src/mainmenu.cpp:36
+msgid "Start game"
+msgstr "Начать игру"
+
+#: src/mainmenu.cpp:37
+msgid "Options"
+msgstr "Опции"
+
+#: src/mainmenu.cpp:38
+msgid "Credits"
+msgstr "О проекте"
+
+#: src/mainmenu.cpp:39
+msgid "Exit"
+msgstr "Выход"
+
+#: src/mainmenu.cpp:40 src/mainmenu.cpp:353
+msgid "Profile:"
+msgstr "Профиль:"
+
+#: src/mainmenu.cpp:48 src/mainmenu.cpp:56
+msgid "Back"
+msgstr "Назад"
+
+#: src/mainmenu.cpp:53 src/hiscores.cpp:348
+msgid "Sequential"
+msgstr "Последовательный"
+
+#: src/mainmenu.cpp:54 src/hiscores.cpp:354
+msgid "Survival"
+msgstr "Выживание"
+
+#: src/mainmenu.cpp:59
+msgid "Game type:"
+msgstr "Тип игры:"
+
+#: src/mainmenu.cpp:75
+msgid "New profile"
+msgstr "Новый профиль"
+
+#: src/mainmenu.cpp:76
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/mainmenu.cpp:112
+msgid "code, gfx, snd & design:"
+msgstr "Код, эффекты, звук и дизайн:"
+
+#: src/mainmenu.cpp:113
+msgid "Remigiusz Dybka"
+msgstr ""
+
+#: src/mainmenu.cpp:114
+msgid "[remigiusz.dybka@gmail.com] Released under GPLv3 License"
+msgstr "[remigiusz.dybka@gmail.com] Выпущенный под GPLv3 лицензией"
+
+#: src/mainmenu.cpp:116
+msgid "music:"
+msgstr "Музыка:"
+
+#: src/mainmenu.cpp:117
+msgid "paniq - Leonard Ritter"
+msgstr ""
+
+#: src/mainmenu.cpp:118
+msgid "[http://www.paniq.org] Released under CC BY-SA License"
+msgstr "[http://www.paniq.org] Выпущенный под CC - SA Лицензией"
+
+#: src/mainmenu.cpp:120
+msgid "quality assurance:"
+msgstr "Проверка качества:"
+
+#: src/mainmenu.cpp:121
+msgid "Kinga Dybka"
+msgstr ""
+
+#: src/mainmenu.cpp:122
+msgid "Michael Sterrett"
+msgstr ""
+
+#: src/mainmenu.cpp:125
+msgid "translations:"
+msgstr "Переводы:"
+
+#: src/mainmenu.cpp:127
+msgid "German:"
+msgstr "Немецкий:"
+
+#: src/mainmenu.cpp:128
+msgid "Frederik Schwarzer"
+msgstr ""
+
+#: src/mainmenu.cpp:130
+msgid "Spanish:"
+msgstr "Испанский:"
+
+#: src/mainmenu.cpp:131
+msgid "Dámaso Domínguez (AmiSpaTra)"
+msgstr ""
+
+#: src/mainmenu.cpp:133
+msgid "French:"
+msgstr "Французский:"
+
+#: src/mainmenu.cpp:134 src/mainmenu.cpp:150
+msgid "Nouvel Hugues"
+msgstr ""
+
+#: src/mainmenu.cpp:136
+msgid "Hungarian:"
+msgstr "Венгерский:"
+
+#: src/mainmenu.cpp:137
+msgid "Gabor Kmetyko"
+msgstr ""
+
+#: src/mainmenu.cpp:139
+msgid "Italian:"
+msgstr "Итальянский:"
+
+#: src/mainmenu.cpp:140
+msgid "Andrea Musuruane"
+msgstr ""
+
+#: src/mainmenu.cpp:142
+msgid "Russian:"
+msgstr "Русский:"
+
+#: src/mainmenu.cpp:143
+msgid "Николай Рощупкин"
+msgstr ""
+
+#: src/mainmenu.cpp:145
+msgid "Turkish:"
+msgstr "Турецкий"
+
+#: src/mainmenu.cpp:146
+msgid "Anıl Özbek"
+msgstr ""
+
+#: src/mainmenu.cpp:149
+msgid "additional coding:"
+msgstr "Дополнительное программирование"
+
+#: src/mainmenu.cpp:152
+msgid "additional testing:"
+msgstr "Дополнительное тестирование"
+
+#: src/mainmenu.cpp:153
+msgid "Irena Klon"
+msgstr ""
+
+#: src/mainmenu.cpp:154
+msgid "Kamil Krzyspiak"
+msgstr ""
+
+#: src/mainmenu.cpp:155
+msgid "Mateusz Jakubowski"
+msgstr ""
+
+#: src/mainmenu.cpp:208
+msgid "Language"
+msgstr "Язык"
+
+#: src/mainmenu.cpp:211
+msgid "Resolution"
+msgstr "Разрешение"
+
+#: src/mainmenu.cpp:212
+msgid "Fullscreen"
+msgstr "Полноэкранный"
+
+#: src/mainmenu.cpp:213
+msgid "Show FPS"
+msgstr "Показать FPS"
+
+#: src/mainmenu.cpp:214
+msgid "Colour hints"
+msgstr "Цветные намёки"
+
+#: src/mainmenu.cpp:215
+msgid "Disable speed-up"
+msgstr "Отключить ускорение"
+
+#: src/mainmenu.cpp:216
+msgid "Mouse sensivity"
+msgstr "Реакция мыши"
+
+#: src/mainmenu.cpp:217
+msgid "Keyb. sensivity"
+msgstr "Реакция клав..."
+
+#: src/mainmenu.cpp:218
+msgid "SFX volume"
+msgstr "Громкость SFX"
+
+#: src/mainmenu.cpp:219
+msgid "Music volume"
+msgstr "Громкость музыки"
+
+#: src/mainmenu.cpp:220
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/mainmenu.cpp:221
+msgid "Apply"
+msgstr "Применить"
+
+#: src/mainmenu.cpp:643
+msgid "Hall of Fame"
+msgstr "Зал славы"
+
+#: src/mainmenu.cpp:761
+msgid "choose a level set"
+msgstr "Выберите уровень"
+
+#: src/mainmenu.cpp:983
+msgid "locked"
+msgstr "Закрыто"
+
+#: src/gameloop.cpp:39 src/gameloop.cpp:45 src/gameloop.cpp:59
+msgid "End game"
+msgstr "Закончить игру"
+
+#: src/gameloop.cpp:40
+msgid "Continue"
+msgstr "Продолжить"
+
+#: src/gameloop.cpp:44
+msgid "Next level"
+msgstr "Новый уровень"
+
+#: src/gameloop.cpp:46 src/gameloop.cpp:53 src/gameloop.cpp:60
+msgid "View replay"
+msgstr "Просмотреть повтор"
+
+#: src/gameloop.cpp:47 src/gameloop.cpp:54 src/gameloop.cpp:61
+msgid "Export video"
+msgstr "Экспорт видео"
+
+#: src/gameloop.cpp:51
+msgid "Back to main menu"
+msgstr "Назад в главное меню"
+
+#: src/gameloop.cpp:52
+msgid "Restart game"
+msgstr "Перезапустите игру"
+
+#: src/gameloop.cpp:58
+msgid "Retry level"
+msgstr "Переиграть уровень"
+
+#: src/gameloop.cpp:65
+msgid "Yes"
+msgstr "Да"
+
+#: src/gameloop.cpp:66
+msgid "No"
+msgstr "Нет"
+
+#: src/gameloop.cpp:576
+#, c-format
+msgid "Lives left: %d"
+msgstr "Осталось жизней: %d"
+
+#: src/gameloop.cpp:579 src/gameloop.cpp:612
+#, c-format
+msgid "Current score: %06d"
+msgstr "Текущий счёт: %06d"
+
+#: src/gameloop.cpp:587
+msgid "Sure you want to end game?"
+msgstr "Вы уверены, что хотите закончить игру?"
+
+#: src/gameloop.cpp:596
+msgid "Game paused"
+msgstr "Пауза"
+
+#: src/gameloop.cpp:609
+msgid "Level cleared"
+msgstr "Уровень очищен"
+
+#: src/gameloop.cpp:623
+msgid "Game Over"
+msgstr "Вы проиграли"
+
+#: src/gameloop.cpp:629
+#, c-format
+msgid "Score: %06d"
+msgstr "Счёт: %06d"
+
+#: src/gameloop.cpp:637
+msgid "Congratulations !!! You just pwned"
+msgstr "Поздравляем!!!"
+
+#: src/gameloop.cpp:642
+msgid "Extra points for remaining lives : "
+msgstr "Дополнительные очки за оставшиеся жизни:"
+
+#: src/gameloop.cpp:671
+msgid "Shortest time for this level!"
+msgstr "Самое лучшее время для этого уровня!"
+
+#: src/gameloop.cpp:677
+msgid "Shortest time for this level and a hi score!"
+msgstr "Самое лучшее время и счёт для этого уровня!"
+
+#: src/gameloop.cpp:683
+msgid "You have a hi score!"
+msgstr "Ваш лучший счёт!"
+
+#: src/scene.cpp:258
+msgid "Exporting video [press ESC to cancel]"
+msgstr "Экспорт видео [для отмены нажмите ESC]"
+
+#: src/hiscores.cpp:351
+msgid "Best times"
+msgstr "Лучшее время"
+
+#: data/levels.list:2
+msgid "Professional"
+msgstr "Профессионал"
+
+#: data/levels.list:3
+msgid "Easy"
+msgstr "Легкий"
+
+#: data/levels.list:5
+msgid "Zatlantiz"
+msgstr ""
+
+#: data/levels.list:6
+msgid "Zuza"
+msgstr ""
+
+#: data/levels.list:7
+msgid "Bendlantiz"
+msgstr ""
+
+#: data/levels.list:8
+msgid "You have been warned"
+msgstr "Засада"
+
+#: data/levels.list:9
+msgid "Double D"
+msgstr "Двойной D"
+
+#: data/levels.list:10
+msgid "SuperZaz"
+msgstr "Супер Zaz"
+
+#: data/levels.list:11
+msgid "Bacteria"
+msgstr "Бактерия"
+
+#: data/levels.list:12
+msgid "Midnight Queen"
+msgstr "Ночная королева"
+
+#: data/levels.list:13
+msgid "Joker"
+msgstr "Джокер"
+
+#: data/levels.list:14
+msgid "The Three Dragonz"
+msgstr "Змей Горыныч"
+
+#: data/levels.list:15
+msgid "The Eye"
+msgstr "Глаз"
+
+#: data/levels.list:16
+msgid "Messy Bedroom"
+msgstr "Неубранная постель"
+
+#: data/levels.list:17
+msgid "TwinTlantis"
+msgstr "Близнецы"
+
+#: data/levels.list:18
+msgid "The Tunnel"
+msgstr "Туннель"
+
+#: data/levels.list:19
+msgid "Snail"
+msgstr "Улитка"
+
+#: data/levels.list:20
+msgid "Spiralis"
+msgstr "Спирали"
+
+#: data/levels.list:21
+msgid "Butterfly"
+msgstr "Бабочка"
+
+#: data/levels.list:22
+msgid "Sonar"
+msgstr "Сонар"
+
+#: data/levels.list:23
+msgid "Specs"
+msgstr "Очки"
+
+#: data/levels.list:24
+msgid "Triad"
+msgstr "Триада"
+
+#: data/levels.list:25
+msgid "Over N' Under"
+msgstr ""
+
+#: data/levels.list:26
+msgid "Infinity"
+msgstr "Бесконечность"
+
+#: data/levels.list:27
+msgid "Nightmare"
+msgstr "Кошмар"
+
+#: data/levels.list:28
+msgid "Twenty Three"
+msgstr "Двадцать три"

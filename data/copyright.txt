@@ -1,0 +1,28 @@
+mus1.ogg, mus2.ogg, mus3.ogg, mus4.ogg:
+	Copyright Leonard Ritter
+	Released under CC-BY-SA license <http://creativecommons.org/licenses/by-sa/3.0/>
+
+gpl3.png:
+	Copyright © 2007, 2008 Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
+	The copyright holder of this file allows anyone to use it for any purpose,
+	provided that the copyright holder is properly attributed. Redistribution,
+	derivative work, commercial use, and all other use is permitted. See
+	<http://commons.wikimedia.org/wiki/File:Gpl-v3-logo.svg>
+
+font1.ttf:
+	Copyright © By Phranzysko. 2003. Open Font License, see <http://openfontlibrary.org/media/files/phranzysko/407>
+
+FreeMonoBold.ttf:
+	Copyleft 2002, 2003, 2005, 2008, 2009 Free Software Foundation. GNU General Public License
+
+FreeSans.ttf:
+	Copyleft 2002, 2003, 2005, 2008, 2009 Free Software Foundation. GNU General Public License
+
+bonus.ogg, combo.ogg, eliminate.ogg, extraball.ogg, extralife.ogg,
+failedlevel.ogg, newcolor.ogg, ouch.ogg, pull.ogg, push.ogg, roll.ogg,
+timebonus.ogg, timebonus.wav, player.png, logo.png, bonus[1-5].png,
+phbx_logo.png, phbx_logo_overlay.png, phbx_snd.ogg,
+level*.png, level*.jpg, balls*.png, *.lvl, *.set:
+	Copyright © 2009, 2010 Remigiusz Dybka
+	Released under GPLv3 license
+

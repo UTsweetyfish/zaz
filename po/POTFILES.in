@@ -1,0 +1,8 @@
+# List of source files which contain translatable strings.
+src/game.cpp
+src/mainmenu.cpp
+src/gameloop.cpp
+src/main.cpp
+src/scene.cpp
+src/hiscores.cpp
+data/levels.list

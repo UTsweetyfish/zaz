@@ -1,0 +1,469 @@
+# translation of Zaz to Hungarian
+# Copyright (C) 2009
+# This file is distributed under the same license as the PACKAGE package.
+#
+# kilo aka Gabor Kmetyko <kg.kilo@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zaz 1.0\n"
+"Report-Msgid-Bugs-To: remigiusz.dybka@gmail.com\n"
+"POT-Creation-Date: 2021-01-31 01:43+0000\n"
+"PO-Revision-Date: 2010-08-26 11:32+0100\n"
+"Last-Translator: kilo aka Gabor Kmetyko <kg.kilo@gmail.com>\n"
+"Language-Team: Hungarian <kg.kilo@gmail.com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Vim\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+
+#: src/game.cpp:806
+msgid "Extra Life !"
+msgstr "Extra élet!"
+
+#: src/game.cpp:882
+#, c-format
+msgid "Time Bonus ! (%d sec * %d = %d)"
+msgstr "Időjóváírás! (%d mp * %d = %d)"
+
+#: src/mainmenu.cpp:36
+msgid "Start game"
+msgstr "Játék indítása"
+
+#: src/mainmenu.cpp:37
+msgid "Options"
+msgstr "Beállítások"
+
+#: src/mainmenu.cpp:38
+msgid "Credits"
+msgstr "Köszönet"
+
+#: src/mainmenu.cpp:39
+msgid "Exit"
+msgstr "Kilépés"
+
+#: src/mainmenu.cpp:40 src/mainmenu.cpp:353
+msgid "Profile:"
+msgstr "Profil:"
+
+#: src/mainmenu.cpp:48 src/mainmenu.cpp:56
+msgid "Back"
+msgstr "Vissza"
+
+#: src/mainmenu.cpp:53 src/hiscores.cpp:348
+msgid "Sequential"
+msgstr "Sorozat"
+
+#: src/mainmenu.cpp:54 src/hiscores.cpp:354
+msgid "Survival"
+msgstr "Túlélő"
+
+#: src/mainmenu.cpp:59
+msgid "Game type:"
+msgstr "Játéktípus:"
+
+#: src/mainmenu.cpp:75
+msgid "New profile"
+msgstr "Új profil"
+
+#: src/mainmenu.cpp:76
+msgid "Delete"
+msgstr "Töröl"
+
+#: src/mainmenu.cpp:112
+msgid "code, gfx, snd & design:"
+msgstr "kód, grafika, hang & design:"
+
+#: src/mainmenu.cpp:113
+msgid "Remigiusz Dybka"
+msgstr "Remigiusz Dybka"
+
+#: src/mainmenu.cpp:114
+msgid "[remigiusz.dybka@gmail.com] Released under GPLv3 License"
+msgstr "[remigiusz.dybka@gmail.com] GPLv3 licensz alatt kiadva"
+
+#: src/mainmenu.cpp:116
+msgid "music:"
+msgstr "zene:"
+
+#: src/mainmenu.cpp:117
+msgid "paniq - Leonard Ritter"
+msgstr "paniq - Leonard Ritter"
+
+#: src/mainmenu.cpp:118
+msgid "[http://www.paniq.org] Released under CC BY-SA License"
+msgstr "[http://www.paniq.org] Kiadva CC BY-SA Licensz alatt"
+
+#: src/mainmenu.cpp:120
+msgid "quality assurance:"
+msgstr "minőségbiztosítás:"
+
+#: src/mainmenu.cpp:121
+msgid "Kinga Dybka"
+msgstr "Kinga Dybka"
+
+#: src/mainmenu.cpp:122
+msgid "Michael Sterrett"
+msgstr "Michael Sterrett"
+
+#: src/mainmenu.cpp:125
+msgid "translations:"
+msgstr "fordítások:"
+
+#: src/mainmenu.cpp:127
+msgid "German:"
+msgstr "német:"
+
+#: src/mainmenu.cpp:128
+msgid "Frederik Schwarzer"
+msgstr "Frederik Schwarzer"
+
+#: src/mainmenu.cpp:130
+msgid "Spanish:"
+msgstr "spanyol:"
+
+#: src/mainmenu.cpp:131
+msgid "Dámaso Domínguez (AmiSpaTra)"
+msgstr "Dámaso Domínguez (AmiSpaTra)"
+
+#: src/mainmenu.cpp:133
+msgid "French:"
+msgstr "francia:"
+
+#: src/mainmenu.cpp:134 src/mainmenu.cpp:150
+msgid "Nouvel Hugues"
+msgstr "Nouvel Hugues"
+
+#: src/mainmenu.cpp:136
+msgid "Hungarian:"
+msgstr "magyar:"
+
+#: src/mainmenu.cpp:137
+msgid "Gabor Kmetyko"
+msgstr "Gábor Kmetykó"
+
+#: src/mainmenu.cpp:139
+msgid "Italian:"
+msgstr "olasz"
+
+#: src/mainmenu.cpp:140
+msgid "Andrea Musuruane"
+msgstr "Andrea Musuruane"
+
+#: src/mainmenu.cpp:142
+msgid "Russian:"
+msgstr "orosz:"
+
+#: src/mainmenu.cpp:143
+msgid "Николай Рощупкин"
+msgstr "Николай Рощупкин"
+
+#: src/mainmenu.cpp:145
+msgid "Turkish:"
+msgstr "török:"
+
+#: src/mainmenu.cpp:146
+msgid "Anıl Özbek"
+msgstr "Anıl Özbek"
+
+#: src/mainmenu.cpp:149
+msgid "additional coding:"
+msgstr "további programozás:"
+
+#: src/mainmenu.cpp:152
+msgid "additional testing:"
+msgstr "további tesztelés:"
+
+#: src/mainmenu.cpp:153
+msgid "Irena Klon"
+msgstr "Irena Klon"
+
+#: src/mainmenu.cpp:154
+msgid "Kamil Krzyspiak"
+msgstr "Kamil Krzyspiak"
+
+#: src/mainmenu.cpp:155
+msgid "Mateusz Jakubowski"
+msgstr "Mateusz Jakubowski"
+
+#: src/mainmenu.cpp:208
+msgid "Language"
+msgstr "Nyelv"
+
+#: src/mainmenu.cpp:211
+msgid "Resolution"
+msgstr "Felbontás"
+
+#: src/mainmenu.cpp:212
+msgid "Fullscreen"
+msgstr "Teljes képernyő"
+
+#: src/mainmenu.cpp:213
+msgid "Show FPS"
+msgstr "FPS megjelenítése"
+
+#: src/mainmenu.cpp:214
+msgid "Colour hints"
+msgstr "Szín segítség"
+
+#: src/mainmenu.cpp:215
+msgid "Disable speed-up"
+msgstr "Gyorsítás tiltása"
+
+#: src/mainmenu.cpp:216
+msgid "Mouse sensivity"
+msgstr "Egér érzékenység"
+
+#: src/mainmenu.cpp:217
+msgid "Keyb. sensivity"
+msgstr "Bill. érzékenység"
+
+#: src/mainmenu.cpp:218
+msgid "SFX volume"
+msgstr "Effekt hangerő"
+
+#: src/mainmenu.cpp:219
+msgid "Music volume"
+msgstr "Zene hangerő"
+
+#: src/mainmenu.cpp:220
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: src/mainmenu.cpp:221
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#: src/mainmenu.cpp:643
+msgid "Hall of Fame"
+msgstr "Dicsőségfal"
+
+#: src/mainmenu.cpp:761
+msgid "choose a level set"
+msgstr "Válassz készletet!"
+
+#: src/mainmenu.cpp:983
+msgid "locked"
+msgstr "lezárva"
+
+#: src/gameloop.cpp:39 src/gameloop.cpp:45 src/gameloop.cpp:59
+msgid "End game"
+msgstr "Játék befejezése"
+
+#: src/gameloop.cpp:40
+msgid "Continue"
+msgstr "Folytatás"
+
+#: src/gameloop.cpp:44
+msgid "Next level"
+msgstr "Következő szint"
+
+#: src/gameloop.cpp:46 src/gameloop.cpp:53 src/gameloop.cpp:60
+msgid "View replay"
+msgstr "Visszajátszás"
+
+#: src/gameloop.cpp:47 src/gameloop.cpp:54 src/gameloop.cpp:61
+msgid "Export video"
+msgstr "Videó export"
+
+#: src/gameloop.cpp:51
+msgid "Back to main menu"
+msgstr "Vissza a főmenühöz"
+
+#: src/gameloop.cpp:52
+msgid "Restart game"
+msgstr "Játék újraindítása"
+
+#: src/gameloop.cpp:58
+msgid "Retry level"
+msgstr "Szint újrajátszása"
+
+#: src/gameloop.cpp:65
+msgid "Yes"
+msgstr "Igen"
+
+#: src/gameloop.cpp:66
+msgid "No"
+msgstr "Nem"
+
+#: src/gameloop.cpp:576
+#, c-format
+msgid "Lives left: %d"
+msgstr "Maradék élet: %d"
+
+#: src/gameloop.cpp:579 src/gameloop.cpp:612
+#, c-format
+msgid "Current score: %06d"
+msgstr "Jelenlegi eredmény: %06d"
+
+#: src/gameloop.cpp:587
+msgid "Sure you want to end game?"
+msgstr "Biztosan befejezed a játékot?"
+
+#: src/gameloop.cpp:596
+msgid "Game paused"
+msgstr "Játék felfüggesztve"
+
+#: src/gameloop.cpp:609
+msgid "Level cleared"
+msgstr "Szint teljesítve"
+
+#: src/gameloop.cpp:623
+msgid "Game Over"
+msgstr "Játék vége"
+
+#: src/gameloop.cpp:629
+#, c-format
+msgid "Score: %06d"
+msgstr "Eredmény: %06d"
+
+#: src/gameloop.cpp:637
+msgid "Congratulations !!! You just pwned"
+msgstr "Gratulálunk!!! Nyertél!"
+
+#: src/gameloop.cpp:642
+msgid "Extra points for remaining lives : "
+msgstr "Megmaradt életek extra pontjai: "
+
+#: src/gameloop.cpp:671
+msgid "Shortest time for this level!"
+msgstr "Legjobb idő ezen a szinten!"
+
+#: src/gameloop.cpp:677
+msgid "Shortest time for this level and a hi score!"
+msgstr "Legjobb idő ezen a szinten és pontrekord!"
+
+#: src/gameloop.cpp:683
+msgid "You have a hi score!"
+msgstr "Új rekordot értél el!"
+
+#: src/scene.cpp:258
+msgid "Exporting video [press ESC to cancel]"
+msgstr "Videó export [félbeszakításhoz ESC]"
+
+#: src/hiscores.cpp:351
+msgid "Best times"
+msgstr "Legjobb idők"
+
+#: data/levels.list:2
+msgid "Professional"
+msgstr "Profi:"
+
+#: data/levels.list:3
+msgid "Easy"
+msgstr "Könnyű"
+
+#: data/levels.list:5
+msgid "Zatlantiz"
+msgstr "Zatlantiz"
+
+#: data/levels.list:6
+msgid "Zuza"
+msgstr "Zuza"
+
+#: data/levels.list:7
+msgid "Bendlantiz"
+msgstr "Bendlantiz"
+
+#: data/levels.list:8
+msgid "You have been warned"
+msgstr "Figyelmeztettelek"
+
+#: data/levels.list:9
+msgid "Double D"
+msgstr "Dupla D"
+
+#: data/levels.list:10
+msgid "SuperZaz"
+msgstr "SuperZaz"
+
+#: data/levels.list:11
+msgid "Bacteria"
+msgstr "Baktérium"
+
+#: data/levels.list:12
+msgid "Midnight Queen"
+msgstr "Éjkirálynő"
+
+#: data/levels.list:13
+msgid "Joker"
+msgstr "Joker"
+
+#: data/levels.list:14
+msgid "The Three Dragonz"
+msgstr "A három sárkány"
+
+#: data/levels.list:15
+msgid "The Eye"
+msgstr "A Szem"
+
+#: data/levels.list:16
+msgid "Messy Bedroom"
+msgstr "Rendetlen hálószoba"
+
+#: data/levels.list:17
+msgid "TwinTlantis"
+msgstr "Iker-atlisz"
+
+#: data/levels.list:18
+msgid "The Tunnel"
+msgstr "Az alagút"
+
+#: data/levels.list:19
+msgid "Snail"
+msgstr "Csiga"
+
+#: data/levels.list:20
+msgid "Spiralis"
+msgstr "Spirál"
+
+#: data/levels.list:21
+msgid "Butterfly"
+msgstr "Pillangó"
+
+#: data/levels.list:22
+msgid "Sonar"
+msgstr "Szonár"
+
+#: data/levels.list:23
+msgid "Specs"
+msgstr "Spéci"
+
+#: data/levels.list:24
+msgid "Triad"
+msgstr "Triád"
+
+#: data/levels.list:25
+msgid "Over N' Under"
+msgstr "Fent és lent"
+
+#: data/levels.list:26
+msgid "Infinity"
+msgstr "Végtelen"
+
+#: data/levels.list:27
+msgid "Nightmare"
+msgstr "Rémálom"
+
+#: data/levels.list:28
+msgid "Twenty Three"
+msgstr "Huszonhármas"
+
+#~ msgid "paniq"
+#~ msgstr "paniq"
+
+#~ msgid "please enter your name"
+#~ msgstr "add meg a neved"
+
+#~ msgid "Use"
+#~ msgstr "Használ"
+
+#~ msgid ""
+#~ "[http://nin.com] Released under Creative Commons Attribution Non-"
+#~ "Commercial Share Alike License"
+#~ msgstr ""
+#~ "[http://nin.com] Publicado bajo la licencia Creative Commons "
+#~ "Reconocimiento-No comercial-Compartir bajo la misma licencia"

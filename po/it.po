@@ -1,0 +1,451 @@
+# ZAZ Italian translation
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Andrea Musuruane <musuruan@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: zaz 0.3.3\n"
+"Report-Msgid-Bugs-To: remigiusz.dybka@gmail.com\n"
+"POT-Creation-Date: 2021-01-31 01:43+0000\n"
+"PO-Revision-Date: 2010-08-24 16:26+0100\n"
+"Last-Translator: Andrea Musuruane <musuruan@gmail.com>\n"
+"Language-Team: Andrea Musuruane <musuruan@gmail.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#: src/game.cpp:806
+msgid "Extra Life !"
+msgstr "Vita in più!"
+
+#: src/game.cpp:882
+#, c-format
+msgid "Time Bonus ! (%d sec * %d = %d)"
+msgstr "Bonus di tempo! (%d sec * %d = %d)"
+
+#: src/mainmenu.cpp:36
+msgid "Start game"
+msgstr "Inizia partita"
+
+#: src/mainmenu.cpp:37
+msgid "Options"
+msgstr "Opzioni"
+
+#: src/mainmenu.cpp:38
+msgid "Credits"
+msgstr "Riconoscimenti"
+
+#: src/mainmenu.cpp:39
+msgid "Exit"
+msgstr "Esci"
+
+#: src/mainmenu.cpp:40 src/mainmenu.cpp:353
+msgid "Profile:"
+msgstr "Profilo: "
+
+#: src/mainmenu.cpp:48 src/mainmenu.cpp:56
+msgid "Back"
+msgstr "Indietro"
+
+#: src/mainmenu.cpp:53 src/hiscores.cpp:348
+msgid "Sequential"
+msgstr "In successione"
+
+#: src/mainmenu.cpp:54 src/hiscores.cpp:354
+msgid "Survival"
+msgstr "Sopravvivenza"
+
+#: src/mainmenu.cpp:59
+msgid "Game type:"
+msgstr "Tipo di gioco:"
+
+#: src/mainmenu.cpp:75
+msgid "New profile"
+msgstr "Nuovo profilo"
+
+#: src/mainmenu.cpp:76
+msgid "Delete"
+msgstr "Elimina"
+
+#: src/mainmenu.cpp:112
+msgid "code, gfx, snd & design:"
+msgstr "codice, grafica, sonoro e progetto:"
+
+#: src/mainmenu.cpp:113
+msgid "Remigiusz Dybka"
+msgstr "Remigiusz Dybka"
+
+#: src/mainmenu.cpp:114
+msgid "[remigiusz.dybka@gmail.com] Released under GPLv3 License"
+msgstr "[remigiusz.dybka@gmail.com] Distribuiti sotto licenza GPLv3"
+
+#: src/mainmenu.cpp:116
+msgid "music:"
+msgstr "musica:"
+
+#: src/mainmenu.cpp:117
+msgid "paniq - Leonard Ritter"
+msgstr "paniq - Leonard Ritter"
+
+#: src/mainmenu.cpp:118
+msgid "[http://www.paniq.org] Released under CC BY-SA License"
+msgstr "[http://www.paniq.org] Distribuita sotto licenza CC BY-SA"
+
+#: src/mainmenu.cpp:120
+msgid "quality assurance:"
+msgstr "controllo qualità:"
+
+#: src/mainmenu.cpp:121
+msgid "Kinga Dybka"
+msgstr "Kinga Dybka"
+
+#: src/mainmenu.cpp:122
+msgid "Michael Sterrett"
+msgstr "Michael Sterrett"
+
+#: src/mainmenu.cpp:125
+msgid "translations:"
+msgstr "traduzioni:"
+
+#: src/mainmenu.cpp:127
+msgid "German:"
+msgstr "Tedesco:"
+
+#: src/mainmenu.cpp:128
+msgid "Frederik Schwarzer"
+msgstr "Frederik Schwarzer"
+
+#: src/mainmenu.cpp:130
+msgid "Spanish:"
+msgstr "Spagnolo:"
+
+#: src/mainmenu.cpp:131
+msgid "Dámaso Domínguez (AmiSpaTra)"
+msgstr "Dámaso Domínguez (AmiSpaTra)"
+
+#: src/mainmenu.cpp:133
+msgid "French:"
+msgstr "Francese:"
+
+#: src/mainmenu.cpp:134 src/mainmenu.cpp:150
+msgid "Nouvel Hugues"
+msgstr "Nouvel Hugues"
+
+#: src/mainmenu.cpp:136
+msgid "Hungarian:"
+msgstr "Ungherese:"
+
+#: src/mainmenu.cpp:137
+msgid "Gabor Kmetyko"
+msgstr "Gabor Kmetyko"
+
+#: src/mainmenu.cpp:139
+msgid "Italian:"
+msgstr "Italiano:"
+
+#: src/mainmenu.cpp:140
+msgid "Andrea Musuruane"
+msgstr "Andrea Musuruane"
+
+#: src/mainmenu.cpp:142
+msgid "Russian:"
+msgstr "Russo:"
+
+#: src/mainmenu.cpp:143
+msgid "Николай Рощупкин"
+msgstr "Николай Рощупкин"
+
+#: src/mainmenu.cpp:145
+msgid "Turkish:"
+msgstr "Turco:"
+
+#: src/mainmenu.cpp:146
+msgid "Anıl Özbek"
+msgstr "Anıl Özbek"
+
+#: src/mainmenu.cpp:149
+msgid "additional coding:"
+msgstr "aiuto programmazione:"
+
+#: src/mainmenu.cpp:152
+msgid "additional testing:"
+msgstr "aiuto test:"
+
+#: src/mainmenu.cpp:153
+msgid "Irena Klon"
+msgstr "Irena Klon"
+
+#: src/mainmenu.cpp:154
+msgid "Kamil Krzyspiak"
+msgstr "Kamil Krzyspiak"
+
+#: src/mainmenu.cpp:155
+msgid "Mateusz Jakubowski"
+msgstr "Mateusz Jakubowski"
+
+#: src/mainmenu.cpp:208
+msgid "Language"
+msgstr "Lingua"
+
+#: src/mainmenu.cpp:211
+msgid "Resolution"
+msgstr "Risoluzione"
+
+#: src/mainmenu.cpp:212
+msgid "Fullscreen"
+msgstr "Schermo intero"
+
+#: src/mainmenu.cpp:213
+msgid "Show FPS"
+msgstr "Mostra FPS"
+
+#: src/mainmenu.cpp:214
+msgid "Colour hints"
+msgstr "Aiuto per daltonici"
+
+#: src/mainmenu.cpp:215
+msgid "Disable speed-up"
+msgstr "Disattiva accelerazione"
+
+#: src/mainmenu.cpp:216
+msgid "Mouse sensivity"
+msgstr "Sensibilità mouse"
+
+#: src/mainmenu.cpp:217
+msgid "Keyb. sensivity"
+msgstr "Sensibilità tastiera"
+
+#: src/mainmenu.cpp:218
+msgid "SFX volume"
+msgstr "Volume effetti"
+
+#: src/mainmenu.cpp:219
+msgid "Music volume"
+msgstr "Volume musica"
+
+#: src/mainmenu.cpp:220
+msgid "Cancel"
+msgstr "Annulla"
+
+#: src/mainmenu.cpp:221
+msgid "Apply"
+msgstr "Applica"
+
+#: src/mainmenu.cpp:643
+msgid "Hall of Fame"
+msgstr "Classifica"
+
+#: src/mainmenu.cpp:761
+msgid "choose a level set"
+msgstr "scegli una serie di livelli"
+
+#: src/mainmenu.cpp:983
+msgid "locked"
+msgstr "bloccato"
+
+#: src/gameloop.cpp:39 src/gameloop.cpp:45 src/gameloop.cpp:59
+msgid "End game"
+msgstr "Fine gioco"
+
+#: src/gameloop.cpp:40
+msgid "Continue"
+msgstr "Continua"
+
+#: src/gameloop.cpp:44
+msgid "Next level"
+msgstr "Prossimo livello"
+
+#: src/gameloop.cpp:46 src/gameloop.cpp:53 src/gameloop.cpp:60
+msgid "View replay"
+msgstr "Guarda replay"
+
+#: src/gameloop.cpp:47 src/gameloop.cpp:54 src/gameloop.cpp:61
+msgid "Export video"
+msgstr "Esporta video"
+
+#: src/gameloop.cpp:51
+msgid "Back to main menu"
+msgstr "Torna al menu principale"
+
+#: src/gameloop.cpp:52
+msgid "Restart game"
+msgstr "Ricomincia partita"
+
+#: src/gameloop.cpp:58
+msgid "Retry level"
+msgstr "Riprova livello"
+
+#: src/gameloop.cpp:65
+msgid "Yes"
+msgstr "Sì"
+
+#: src/gameloop.cpp:66
+msgid "No"
+msgstr "No"
+
+#: src/gameloop.cpp:576
+#, c-format
+msgid "Lives left: %d"
+msgstr "Vite rimaste: %d"
+
+#: src/gameloop.cpp:579 src/gameloop.cpp:612
+#, c-format
+msgid "Current score: %06d"
+msgstr "Punteggio attuale: %06d"
+
+#: src/gameloop.cpp:587
+msgid "Sure you want to end game?"
+msgstr "Abbandonare veramente il gioco?"
+
+#: src/gameloop.cpp:596
+msgid "Game paused"
+msgstr "Gioco in pausa"
+
+#: src/gameloop.cpp:609
+msgid "Level cleared"
+msgstr "Livello superato"
+
+#: src/gameloop.cpp:623
+msgid "Game Over"
+msgstr "Partita finita"
+
+#: src/gameloop.cpp:629
+#, c-format
+msgid "Score: %06d"
+msgstr "Punteggio: %06d"
+
+#: src/gameloop.cpp:637
+msgid "Congratulations !!! You just pwned"
+msgstr "Congratulazioni!!! Hai trionfato!!!"
+
+#: src/gameloop.cpp:642
+msgid "Extra points for remaining lives : "
+msgstr "Punti supplementari per le vite rimanenti: "
+
+#: src/gameloop.cpp:671
+msgid "Shortest time for this level!"
+msgstr "Minor tempo per questo livello!"
+
+#: src/gameloop.cpp:677
+msgid "Shortest time for this level and a hi score!"
+msgstr "Minor tempo per questo livello e record!"
+
+#: src/gameloop.cpp:683
+msgid "You have a hi score!"
+msgstr "Hai fatto un record!"
+
+#: src/scene.cpp:258
+msgid "Exporting video [press ESC to cancel]"
+msgstr "Esportazione video in corso [premi ESC per annullare]"
+
+#: src/hiscores.cpp:351
+msgid "Best times"
+msgstr "Migliori tempi"
+
+#: data/levels.list:2
+msgid "Professional"
+msgstr "Professionale"
+
+#: data/levels.list:3
+msgid "Easy"
+msgstr "Facile"
+
+#: data/levels.list:5
+msgid "Zatlantiz"
+msgstr "Zatlantiz"
+
+#: data/levels.list:6
+msgid "Zuza"
+msgstr "Zuza"
+
+#: data/levels.list:7
+msgid "Bendlantiz"
+msgstr "Bendlantiz"
+
+#: data/levels.list:8
+msgid "You have been warned"
+msgstr "Sei stato avvertito"
+
+#: data/levels.list:9
+msgid "Double D"
+msgstr "Doppia D"
+
+#: data/levels.list:10
+msgid "SuperZaz"
+msgstr "SuperZaz"
+
+#: data/levels.list:11
+msgid "Bacteria"
+msgstr "Batteri"
+
+#: data/levels.list:12
+msgid "Midnight Queen"
+msgstr "Reqina di mezzanotte"
+
+#: data/levels.list:13
+msgid "Joker"
+msgstr "Jolly"
+
+#: data/levels.list:14
+msgid "The Three Dragonz"
+msgstr "I tre draghi"
+
+#: data/levels.list:15
+msgid "The Eye"
+msgstr "L'occhio"
+
+#: data/levels.list:16
+msgid "Messy Bedroom"
+msgstr "Camera da letto in disordine"
+
+#: data/levels.list:17
+msgid "TwinTlantis"
+msgstr "TwinTlantis"
+
+#: data/levels.list:18
+msgid "The Tunnel"
+msgstr "La galleria"
+
+#: data/levels.list:19
+msgid "Snail"
+msgstr "Lumaca"
+
+#: data/levels.list:20
+msgid "Spiralis"
+msgstr "Spiralis"
+
+#: data/levels.list:21
+msgid "Butterfly"
+msgstr "Farfalla"
+
+#: data/levels.list:22
+msgid "Sonar"
+msgstr "Sonar"
+
+#: data/levels.list:23
+msgid "Specs"
+msgstr "Specs"
+
+#: data/levels.list:24
+msgid "Triad"
+msgstr "Triade"
+
+#: data/levels.list:25
+msgid "Over N' Under"
+msgstr "Sopra e Sotto"
+
+#: data/levels.list:26
+msgid "Infinity"
+msgstr "Infinito"
+
+#: data/levels.list:27
+msgid "Nightmare"
+msgstr "Incubo"
+
+#: data/levels.list:28
+msgid "Twenty Three"
+msgstr "Ventitre"
